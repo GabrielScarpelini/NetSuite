@@ -1,0 +1,8 @@
+pprint retorna um valor mais amigável no console pra ver o JSON
+
+.keys retorna as chave = print(nomejson.keys)
+
+em python sempre vai usar [] pra acessar as chaves d o JSON
+
+.json['chave1']['chave2']["1"][O] indice zero se for acessar o I de uma lista
+                          --> se a chave for um number usa entre aspas

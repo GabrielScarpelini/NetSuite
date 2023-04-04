@@ -1,0 +1,18 @@
+GET buscar dados 400 erro do lado do cliente 500 erro do lado do server
+
+#sempre usar o
+import request#
+
+cep = '09631090'
+
+url = f'https://viacep.com.br/ws/{cep}/json'
+
+reposta = request.get(url)
+
+if resposta.status_code == 200:  # 500 erro servidor 400 erro cliente
+    dados = resposta.json()
+    pprint(dados)
+else:
+    print('erro', reposta.status_code)
+
+#pra voltar o JSON daquela paradinha colocar o resposta.json()

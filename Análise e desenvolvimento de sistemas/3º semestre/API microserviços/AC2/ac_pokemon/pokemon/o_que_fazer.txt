@@ -1,0 +1,17 @@
+O propósito: codificar um programa que acessa o site https://pokeapi.co/,
+baixa os dados e responde perguntas sobre os pokemons.
+
+Essa atividade é uma AC e, como tal, pode ser feita em grupos de até 6/7 pessoas.
+Teremos tempo nessa aula e na aula que vem para realizar a atividade
+
+INSTALAÇÃO - Para quem usa VSCode
+
+Descompacte o pokemon.zip e abra a pasta no VSCode. 
+No cmd do VScode rode pip install -r requirements.txt --user 
+(se for linux ou mac, substitua o pip por pip3)
+
+na pasta ac_pokemon > pokemon, codifique sua AC no arquivo pokemon.py
+para testar, rode o arquivo runtests_pokemon.py
+
+Tente rodar a maior quantidade de testes possíveis
+São apenas 7 funções

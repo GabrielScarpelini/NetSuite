@@ -1,0 +1,7 @@
+Aula 24/02
+
+
+dic.keys() mostras as chaves 
+
+dic.values() mostra os valores
+
