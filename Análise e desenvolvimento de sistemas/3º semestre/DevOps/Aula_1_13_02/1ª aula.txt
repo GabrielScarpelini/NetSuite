@@ -1,0 +1,46 @@
+1ª aula de devops
+
+ferramentas pra devsops GitLab, AWS, Docker, CICD, Grafana
+
+docker: dá pra criar o ambiente em núvem por linha de código 
+
+etapas: build (cria o ambiente) > deploy (coloca o ambiente em produção na núvem) 
+
+GIT: veio para dar versionamento nos arquivos, 
+
+Tipos de git, git hub, git lab, bit bucket todas vindo do git 
+
+
+em caso de 2 devs programando o mesmo código, o uqe der o o último commit vai sobrescrever
+tem como haver um conflito, quando os dois mudam "a mesma coisa" assim o git lhe dará a opção 
+se vai manter as duas alterações, ou uma das duas 
+
+git status: ele informa o que foi alterado antes de fazer commit, 
+git add: adiciona os files alterados para subir(commit(memo)) 
+
+comandos mais usados:
+
+[git clone, git checkout, git status, git add, git commit, git pull, git push,
+git merge, git stash list / pop]
+
+git clone:          > clona o comando e o url da branch
+git checkout: 		 > vc vai pra uma branch que já existe 
+git checkout -b:    > cria outra branch 
+git status:         > os status dos arquivos, o que foi alterado
+git add:			 > vai adicionar os arquivos que vc quer adicionar, e vai colocar na zona de commit
+				  se colocar o nome do arquivo, vai enviar só o arquivo selecionado.
+git commit:         > é o onde vai adicionar o memo colocando > git commit -m "memo aqui"
+git pull:           > é pra puxar as informações da branch alheia, assim puxando o arquivo
+git push:           > joga os arquivos passando a branch que vai 
+git merge:          > é quando vai pegar ow jogar algo pra branch "main"
+git stash:          > ele salva os status que vc estava alterando. git stash list > mostra uma lista com todos os ids salvos
+git stash pop       > ele retorna o ultimo indice dessa lista do stash. 
+
+meu sistema tem 5 funcionalidades, qual a parte pra fazer mais testes:
+para a parte mais importante e não para as outras 4 tipo 10 testes na + treta e 2 nas outras 
+
+
+
+
+
+

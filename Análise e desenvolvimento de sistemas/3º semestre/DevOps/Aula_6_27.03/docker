@@ -1,0 +1,48 @@
+criar micro container e ele seja portátil de facil acesso e facil de destruir
+
+PORTABILIDADE 
+
+docker engine 
+
+docker hub um serviço em nuvem responsável pelo compartilhamento de aplicações e 
+automação  de fluxo de trabalho
+
+docker permite que aplições sejam rapidamente montadas e elimina o atrito e a diferença
+entre os ambientes de desenvolvimento , testes e produção
+
+2 conteúdos, containers e imagens 
+
+Container são ambientes onde é possível definir recursos, testar etc
+ vantegens: velocidade, boot em questão de secs, economia de recursos
+
+Imagem configuração do meu container (template para rodar um container)
+docker hub vc pode pegar uma imagem de lá para usar
+
+From indica a imagem que vai ser utilizada como base 
+
+docker criar ambientes para testar e desenvolver facilmente criado e destruido.
+
+Caso de uso, um enorme aumento no fluxo de dados do nada, e assim provisionam 
+mais maquinas online para aguentar esse fluxo.
+
+MUITO ULTILIZADO HOJE EM DIA.
+
+Docker file, arquivo docker
+
+pegar um container pronto de my sql, lá do Docker Hub 
+
+add new instance
+
+docker pull mysql:5.7
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=mudar123 -p 3307:3307 -d mysql:5.7
+
+docker exec -it id do container
+
+ctrl insert copia e shift insert compartilhamento
+
+show schemas
+
+docker network inspect 
+
+docker ps é tipo um  git status 
+history para ver o que rolou

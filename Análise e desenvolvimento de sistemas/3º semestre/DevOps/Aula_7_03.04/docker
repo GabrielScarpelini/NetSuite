@@ -1,0 +1,24 @@
+como resolver escalabilidade: escalar mais máquinas online 
+
+Serialização: capacidade que uma informação tem de circular de um pc ao outro 
+
+imagem é uma configuração do docker, a partir de uma imagem a gnt consegue rodar quantas
+maquinas quisermos
+
+tem que se a mesma porta, se não, não irá rodar ou conectar
+
+comandos docker 
+
+docker logs --help 
+
+docker search redis
+
+-e define uma variável de ambiente 
+)--env-file loacal de um arquivo com variáveis de ambiente 
+--link adicionar link 
+
+docker exec 
+
+nome da imagem da imagem do docker, Dockerfile
+
+ac ex, 100 primeiros number primos 

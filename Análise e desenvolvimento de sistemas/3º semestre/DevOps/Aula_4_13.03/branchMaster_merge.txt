@@ -1,0 +1,8 @@
+branch master é a maior de onde sempre parte e volta as coisas 
+
+ela sempre deve estar preservada, se for usar faz uma cópia pra não dar erro
+assim podendo testar coisas novas e após todos os testes, aí retorna ao branch master
+
+branch master semppre garantir que esteja rodando liso e sem bugs
+
+o merge é o que muda do branch segundário e vai colocar na branch master 

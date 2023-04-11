@@ -1,0 +1,32 @@
+o Docker é uma plataforma usada para construir ambientes para testar aplicações
+de fácil alocação e fácil destruição.
+
+LEVESA, PORTABILIDADE, E ALTA ESCALABILIDADE
+
+docker é bem mais leve pois ele tem um SO host, assim ele conversa diretamente com 
+outras engines docker, assim eliminando muito caminho a mais, e ficando muito mais performático
+
+IMAGEM = CONFIGURAÇÃO
+
+docker images: cria uma imagem instantânea 
+
+docker pull: pega a imagem do docker que queremos trabalhar
+
+docker containers: diretórios
+
+docker deamon: usado paragerenciar os containers
+
+docker logs: pra logar as paradas
+
+docker network inspect bridge: mostra o IP a gnt usou na AC
+
+Dockerfile = são as instruções para criar uma imagem docker
+
+docker vitual box, teremos um aula sobre isso, hypervisor
+
+virtual box = máquina virtual 
+
+AC 3 semana que vem em 
+
+docker image . "esse ponto monstrao diretório, o Dockerfile tme que estar na mesma pasta"
+
